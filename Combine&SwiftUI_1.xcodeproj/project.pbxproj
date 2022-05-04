@@ -11,6 +11,7 @@
 		BDBAB02928230199004A5214 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBAB02828230199004A5214 /* ContentView.swift */; };
 		BDBAB02B2823019B004A5214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBAB02A2823019B004A5214 /* Assets.xcassets */; };
 		BDBAB02E2823019B004A5214 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBAB02D2823019B004A5214 /* Preview Assets.xcassets */; };
+		BDBAB035282301B6004A5214 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBAB034282301B6004A5214 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BDBAB02828230199004A5214 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDBAB02A2823019B004A5214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDBAB02D2823019B004A5214 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDBAB034282301B6004A5214 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				BDBAB02628230199004A5214 /* Combine_SwiftUI_1App.swift */,
+				BDBAB034282301B6004A5214 /* ViewModel.swift */,
 				BDBAB02828230199004A5214 /* ContentView.swift */,
 				BDBAB02A2823019B004A5214 /* Assets.xcassets */,
 				BDBAB02C2823019B004A5214 /* Preview Content */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDBAB02928230199004A5214 /* ContentView.swift in Sources */,
+				BDBAB035282301B6004A5214 /* ViewModel.swift in Sources */,
 				BDBAB02728230199004A5214 /* Combine_SwiftUI_1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
