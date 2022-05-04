@@ -8,8 +8,10 @@
 import Combine
 
 class ViewModel: ObservableObject {
-    @Published var someText: String = ""
-    @Published var otherText: String = "🌺"
+    @Published var someText = ""
+    @Published var secondText = ""
+    
+    @Published var otherText = "🌺"
     
     init() {
         $someText
